@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_wraptext(${1:\$str}, ${2:80})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_wraptext</tabTrigger>
   <description>Wraps text.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

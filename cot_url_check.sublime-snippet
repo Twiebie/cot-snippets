@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_url_check(${1:\$url})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_url_check</tabTrigger>
   <description>Checks if an absolute URL belongs to current site or its subdomains.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

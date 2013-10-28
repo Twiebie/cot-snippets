@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_declension(${1:\$digit}, ${2:\$expr})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_declension</tabTrigger>
   <description>Makes correct plural forms of words.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

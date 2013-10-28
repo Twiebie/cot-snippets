@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_build_group(${1:\$grpid}, ${2:false})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_build_group</tabTrigger>
   <description>Returns group link (button).</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

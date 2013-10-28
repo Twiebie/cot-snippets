@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_parse(${1:\$page_data['text']}, ${2:\$cfg['page']['markup']}, ${3:\$page_data['page_parser']})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_parse</tabTrigger>
   <description>Parses text body.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

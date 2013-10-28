@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_url('${1:myplugin}', '${2:m=somelocation}')
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_url</tabTrigger>
   <description>Transforms parameters into URL by following user-defined values.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

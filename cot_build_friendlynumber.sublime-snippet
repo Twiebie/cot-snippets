@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_build_friendlynumber(${1:\$number}, array('${2:3600}' => '${3:hours}', '${4:60}' => '${5:minutes}', '${6:1}' => '${7:seconds}'))
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_build_friendlynumber</tabTrigger>
   <description>Generic function for generating a human-readable number with localized units.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_die_message('${1:404}', ${2:true})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_die_message</tabTrigger>
   <description>Terminates script execution and displays message page.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

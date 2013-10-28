@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_rc_link_file(${1:\$cfg['modules_dir'] . '/mymodule/tpl/somefile.css'});
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc_link_file</tabTrigger>
   <description>A shortcut for plain output of a link to a CSS/JS file in the header of the page.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

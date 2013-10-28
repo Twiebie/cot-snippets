@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_module_active('${1:modulename}')
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_module_active</tabTrigger>
   <description>Checks if a module is currently installed and active.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

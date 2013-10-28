@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_title(${1:\$cfg['myplugin']['mytitle']}, ${2:\$params})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_title</tabTrigger>
   <description>Generates a title string by replacing submasks with assigned values.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

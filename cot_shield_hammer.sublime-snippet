@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_shield_hammer(${1:\$hammer}, ${2:\$action}, ${3:\$lastseen})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_shield_hammer</tabTrigger>
   <description>Anti-hammer protection.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

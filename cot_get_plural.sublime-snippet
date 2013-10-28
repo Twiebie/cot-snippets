@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_get_plural(${1:\$plural}, '${2:en}', ${3:false})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_get_plural</tabTrigger>
   <description>Used in cot_declension to get rules for concrete languages.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

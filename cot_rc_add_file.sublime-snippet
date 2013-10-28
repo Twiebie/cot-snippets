@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_rc_add_file(${1:\$cfg['plugins_dir'] . '/myplugin/lib/somefile.css')})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc_add_file</tabTrigger>
   <description>Puts a JS/CSS file into the footer resource registry to be consolidated with other such resources and stored in cache.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

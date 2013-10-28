@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_timezone_list(${1:false}, ${2:false})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_timezone_list</tabTrigger>
   <description>Returns a list of timezones sorted by GMT offset.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

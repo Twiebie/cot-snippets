@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_imageresize(${1:\$filepath}, ${2:\$filepath}, ${3:\$settings['width']}, ${4:\$settings['height']}, ${5:\$settings['crop']}, '${6:}', ${7:100})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_imageresize</tabTrigger>
   <description>Resize an image.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

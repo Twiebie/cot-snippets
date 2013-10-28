@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_hash_funcs(${1:})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_hash_funcs</tabTrigger>
   <description>Returns a list of available hash algos for use with configs.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

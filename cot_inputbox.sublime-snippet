@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_inputbox('${1:text}', '${2:fieldname}', '${3:fieldvalue}', array('${4:size}' => ${5:56}, '${6:maxlength}' => ${7:255}))
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_inputbox</tabTrigger>
   <description>Generates a form input from a resource string.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

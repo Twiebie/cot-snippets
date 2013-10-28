@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_structure_children('${1:myplugin}', ${2:\$cat}, ${3:false},  ${4:false})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_structure_children</tabTrigger>
   <description>Gets an array of category children.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_breadcrumbs({1:\$crumbs}, ${2:\$cfg['homebreadcrumb']}, ${3:true})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_breadcrumbs</tabTrigger>
   <description>Renders breadcrumbs string from array of path crumbs.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

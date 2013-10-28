@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_rc_link_footer(${1:\$cfg['plugins_dir'] . '/myplugin/lib/somefile.js'})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc_link_footer</tabTrigger>
   <description>A shortcut to append a Javascript or CSS file to {FOOTER_JS} tag.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

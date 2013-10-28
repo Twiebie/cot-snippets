@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_outputfilters(${1:\$output})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_outputfilters</tabTrigger>
   <description>Standard SED output filters, adds XSS protection to forms.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

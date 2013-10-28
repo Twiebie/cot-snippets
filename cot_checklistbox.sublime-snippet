@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_checklistbox('${1:}', '${2:name}', array('${3:key}' => '${4:value}'), array('${5:key}' => '${6:value}'), '${7:}', '${8:}', ${9:true}, '${10:}')
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_checklistbox</tabTrigger>
   <description>Generates a checklistbox output</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

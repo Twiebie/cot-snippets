@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_rc_consolidate(${1:})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc_consolidate</tabTrigger>
   <description>Consolidates local JS and CSS resources used during script execution.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

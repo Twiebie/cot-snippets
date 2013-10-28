@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_auth_build(${1:\$userid}, ${2:0})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_auth_build</tabTrigger>
   <description>Builds Access Control List (ACL) for a specific user.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

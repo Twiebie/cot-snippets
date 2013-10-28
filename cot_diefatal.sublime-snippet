@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_diefatal('${1:Reason is unknown.}', '${2:Fatal error}')
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_diefatal</tabTrigger>
   <description>Terminates script execution with fatal error.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

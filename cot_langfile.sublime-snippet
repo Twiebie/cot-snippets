@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_langfile('${1:myplugin}', '${2:plug}')
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_langfile</tabTrigger>
   <description>Returns a language file path for an extension or core part.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

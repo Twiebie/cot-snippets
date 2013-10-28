@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_implode_messages(${1:})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_implode_messages</tabTrigger>
   <description>Collects all messages and implodes them into a single string.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

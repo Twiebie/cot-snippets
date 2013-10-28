@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_date('${1:datetime_short}', ${2:\$date})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_date</tabTrigger>
   <description>Localized version of PHP date().</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>

@@ -2,9 +2,7 @@
   <content><![CDATA[
 cot_hash_md5(${1:\$data}, ${2:\$salt})
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_hash_md5</tabTrigger>
   <description>Simple MD5 hash wrapper. Old passwords use this func.</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php</scope>
 </snippet>
