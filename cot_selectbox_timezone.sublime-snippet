@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+cot_selectbox_timezone(${1:''}, ${2:'name'}, ${3:true}, ${4:false}, ${5:''}, ${6:''})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cot_selectbox_timezone</tabTrigger>
+  <description>Returns timezone selection dropdown.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+</snippet>

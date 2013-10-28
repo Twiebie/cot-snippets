@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+cot_sendheaders(${1:'text/html'}, ${2:'200 OK'}, ${3:0})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cot_sendheaders</tabTrigger>
+  <description>Sends standard HTTP headers and disables browser cache.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+</snippet>

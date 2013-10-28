@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+cot_structure_children(${1:\$area}, ${2:\$cat}, ${3:true},  ${4:true}, ${5:true}, ${6:true})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cot_structure_children</tabTrigger>
+  <description>Gets an array of category children.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+</snippet>

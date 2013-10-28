@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+cot_rc_add_embed(${1:\$identifier}, ${2:\$code}, ${3:'global'}, ${4:'js'}, ${5:50})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>cot_rc_add_embed</tabTrigger>
+  <description>Puts a portion of embedded code into the header/footer CSS/JS resource registry.</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+</snippet>
