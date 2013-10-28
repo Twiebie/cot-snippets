@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_checkbox(${1:''}, ${2:'name'}, ${3:'title'}, ${4:''}, ${5:'1'}, ${6:''})
+cot_checkbox(${1:0}, '${2:fieldname}', '${3:fieldtitle}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_checkbox</tabTrigger>
