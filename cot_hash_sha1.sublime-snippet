@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_hash_sha1(${1:\$data}, ${2:\$salt})
 ]]></content>
@@ -7,5 +6,5 @@ cot_hash_sha1(${1:\$data}, ${2:\$salt})
   <tabTrigger>cot_hash_sha1</tabTrigger>
   <description>SHA1 hash func for use with cot_hash().</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

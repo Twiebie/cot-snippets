@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_uriredir_redirect(${1:\$uri})
 ]]></content>
@@ -7,5 +6,5 @@ cot_uriredir_redirect(${1:\$uri})
   <tabTrigger>cot_uriredir_redirect</tabTrigger>
   <description>Check URI-redir for xg before redirect.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

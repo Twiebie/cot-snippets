@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_structure_add(${1:\$extension}, ${2:array('key' => 'value')}, ${3:true})
 ]]></content>
@@ -7,5 +6,5 @@ cot_structure_add(${1:\$extension}, ${2:array('key' => 'value')}, ${3:true})
   <tabTrigger>cot_structure_add</tabTrigger>
   <description>Adds a new category</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

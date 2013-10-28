@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_radiobox(${1:''}, ${2:'name'}, ${3:array('', '')}, ${4:array('', '')}, ${5:''}, ${6:''}, ${7:''})
 ]]></content>
@@ -7,5 +6,5 @@ cot_radiobox(${1:''}, ${2:'name'}, ${3:array('', '')}, ${4:array('', '')}, ${5:'
   <tabTrigger>cot_radiobox</tabTrigger>
   <description>Generates a radio input group.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, comment.block.documentation.phpdoc.php</scope>
+  <scope>source.php.embedded.block.html, comment.block.documentation.phpdoc.php</scope>
 </snippet>

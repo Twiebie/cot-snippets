@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_watch(${1:\$var})
 ]]></content>
@@ -7,5 +6,5 @@ cot_watch(${1:\$var})
   <tabTrigger>cot_watch</tabTrigger>
   <description>Dumps current state of its arguments to debug log file and continues normal script execution.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

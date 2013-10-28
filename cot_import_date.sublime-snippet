@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_import_date(${1:\$name}, ${2:true}, ${3:false}, ${4:'P'})
 ]]></content>
@@ -7,5 +6,5 @@ cot_import_date(${1:\$name}, ${2:true}, ${3:false}, ${4:'P'})
   <tabTrigger>cot_import_date</tabTrigger>
   <description>Imports date stamp.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

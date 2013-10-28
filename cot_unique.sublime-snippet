@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_unique(${1:16})
 ]]></content>
@@ -7,5 +6,5 @@ cot_unique(${1:16})
   <tabTrigger>cot_unique</tabTrigger>
   <description>Generates random string within hexadecimal range.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

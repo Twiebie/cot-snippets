@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_generate_usertags(${1:\$user_data}, ${2:''}, ${3:''}, ${4:false}, ${5:true})
 ]]></content>
@@ -7,5 +6,5 @@ cot_generate_usertags(${1:\$user_data}, ${2:''}, ${3:''}, ${4:false}, ${5:true})
   <tabTrigger>cot_generate_usertags</tabTrigger>
   <description>Returns all user tags for XTemplate.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

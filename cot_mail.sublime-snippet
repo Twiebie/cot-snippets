@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_mail(${1:\$fmail}, ${2:\$subject}, ${3:\$body}, ${4:''}, ${5:false}, ${6:null}, ${7:false})
 ]]></content>
@@ -7,5 +6,5 @@ cot_mail(${1:\$fmail}, ${2:\$subject}, ${3:\$body}, ${4:''}, ${5:false}, ${6:nul
   <tabTrigger>cot_mail</tabTrigger>
   <description>Sends mail with standard PHP mail().</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_timezone_search(${1:''}, ${2:null})
 ]]></content>
@@ -7,5 +6,5 @@ cot_timezone_search(${1:''}, ${2:null})
   <tabTrigger>cot_timezone_search</tabTrigger>
   <description>Returns a list of possible timezones based on country and/or GMT offset.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

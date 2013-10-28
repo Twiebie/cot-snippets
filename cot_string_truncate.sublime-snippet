@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_string_truncate(${1:\$text}, ${2:100}, ${3:true}, ${4:false}, ${5:''})
 ]]></content>
@@ -7,5 +6,5 @@ cot_string_truncate(${1:\$text}, ${2:100}, ${3:true}, ${4:false}, ${5:''})
   <tabTrigger>cot_string_truncate</tabTrigger>
   <description>Cuts a string to the length of $length.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

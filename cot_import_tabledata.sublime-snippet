@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_import_tabledata(${1:\$nameslist}, ${2:'P'}, ${3:''}, ${4:\$origindata}, ${5:0}, ${6:false}, ${7:false})
 ]]></content>
@@ -7,5 +6,5 @@ cot_import_tabledata(${1:\$nameslist}, ${2:'P'}, ${3:''}, ${4:\$origindata}, ${5
   <tabTrigger>cot_import_tabledata</tabTrigger>
   <description>Imports data from the outer world as indexed array of records imported by cot_import_list.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

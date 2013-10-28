@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_parse_str(${1:\$str})
 ]]></content>
@@ -7,5 +6,5 @@ cot_parse_str(${1:\$str})
   <tabTrigger>cot_parse_str</tabTrigger>
   <description>Splits a query string into keys and values array.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

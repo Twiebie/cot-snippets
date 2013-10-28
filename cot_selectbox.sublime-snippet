@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_selectbox(${1:''}, ${2:'name'}, ${3:array('', '')}, ${3:array('', '')}, ${4:true}, ${5:''}, ${6:''}, ${7:false})
 ]]></content>
@@ -7,5 +6,5 @@ cot_selectbox(${1:''}, ${2:'name'}, ${3:array('', '')}, ${3:array('', '')}, ${4:
   <tabTrigger>cot_selectbox</tabTrigger>
   <description>Renders a dropdown.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

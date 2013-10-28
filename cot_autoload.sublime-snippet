@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_autoload(${1:\$string})
 ]]></content>
@@ -7,5 +6,5 @@ cot_autoload(${1:\$string})
   <tabTrigger>cot_autoload</tabTrigger>
   <description>Generic autoloader function to be used with spl_autoload_register.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

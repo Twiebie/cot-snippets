@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_rc_link_footer(${1:\$path})
 ]]></content>
@@ -7,5 +6,5 @@ cot_rc_link_footer(${1:\$path})
   <tabTrigger>cot_rc_link_footer</tabTrigger>
   <description>A shortcut to append a Javascript or CSS file to {FOOTER_JS} tag.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_rmdir(${1:\$dir})
 ]]></content>
@@ -7,5 +6,5 @@ cot_rmdir(${1:\$dir})
   <tabTrigger>cot_rmdir</tabTrigger>
   <description>Removes a directory recursively.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

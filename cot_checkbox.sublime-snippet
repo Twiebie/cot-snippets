@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_checkbox(${1:''}, ${2:'name'}, ${3:'title'}, ${4:''}, ${5:'1'}, ${6:''})
 ]]></content>
@@ -7,5 +6,5 @@ cot_checkbox(${1:''}, ${2:'name'}, ${3:'title'}, ${4:''}, ${5:'1'}, ${6:''})
   <tabTrigger>cot_checkbox</tabTrigger>
   <description>Generates a checkbox output.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

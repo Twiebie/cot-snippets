@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_selectbox_countries(${1:''}, ${2:'name'}, ${3:true}, ${4:''}, ${5:''})
 ]]></content>
@@ -7,5 +6,5 @@ cot_selectbox_countries(${1:''}, ${2:'name'}, ${3:true}, ${4:''}, ${5:''})
   <tabTrigger>cot_selectbox_countries</tabTrigger>
   <description>Renders country dropdown.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

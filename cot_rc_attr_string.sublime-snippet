@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_rc_attr_string(${1:\$attrs})
 ]]></content>
@@ -7,5 +6,5 @@ cot_rc_attr_string(${1:\$attrs})
   <tabTrigger>cot_rc_attr_string</tabTrigger>
   <description>Converts custom attributes to a string if necessary.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

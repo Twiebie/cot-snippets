@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_rc_add_file(${1:\$path}, ${2:'global'}, ${3:50})
 ]]></content>
@@ -7,5 +6,5 @@ cot_rc_add_file(${1:\$path}, ${2:'global'}, ${3:50})
   <tabTrigger>cot_rc_add_file</tabTrigger>
   <description>Puts a JS/CSS file into the footer resource registry to be consolidated with other such resources and stored in cache.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

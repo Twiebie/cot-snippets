@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_shield_hammer(${1:\$hammer}, ${2:\$action}, ${3:\$lastseen})
 ]]></content>
@@ -7,5 +6,5 @@ cot_shield_hammer(${1:\$hammer}, ${2:\$action}, ${3:\$lastseen})
   <tabTrigger>cot_shield_hammer</tabTrigger>
   <description>Anti-hammer protection.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>

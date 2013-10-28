@@ -1,5 +1,4 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
   <content><![CDATA[
 cot_rc_link_file(${1:\$path}, ${2:false})
 ]]></content>
@@ -7,5 +6,5 @@ cot_rc_link_file(${1:\$path}, ${2:false})
   <tabTrigger>cot_rc_link_file</tabTrigger>
   <description>A shortcut for plain output of a link to a CSS/JS file in the header of the page.</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>text.html.basic, source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
+  <scope>source.php.embedded.block.html, meta.function.php, entity.name.function.php</scope>
 </snippet>
