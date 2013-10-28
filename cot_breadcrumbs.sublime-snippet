@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_breadcrumbs(${1:\$crumbs}, ${2:true}, ${3:false}, ${4:false}, ${5:''}, ${6:''})
+cot_breadcrumbs({1:\$crumbs}, ${2:\$cfg['homebreadcrumb']}, ${3:true})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_breadcrumbs</tabTrigger>

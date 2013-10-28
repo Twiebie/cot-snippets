@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_getextplugins(${1:hook}, ${2:'R'})
+cot_getextplugins('${1:myplugin.tags}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_getextplugins</tabTrigger>
