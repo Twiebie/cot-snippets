@@ -1,5 +1,7 @@
 This package includes most of the PHP functions available in Cotonti Siena, allowing you to easily auto-complete them in Sublime Text.
 
+![](http://i.imgur.com/w8F7LkF.gif)
+
 #Installation
 
 ### Package Control
