@@ -1,6 +1,8 @@
 <snippet>
   <content><![CDATA[
-cot_rc_add_embed(${1:\$identifier}, ${2:\$code}, ${3:'global'}, ${4:'js'}, ${5:50})
+cot_rc_add_embed('${1:tags.autocomplete}', '${2:\$(document).ready(function() {
+  // My code
+\});}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc_add_embed</tabTrigger>

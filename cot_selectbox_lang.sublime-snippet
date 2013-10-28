@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_selectbox_lang(${1:''}, ${2:'name}, ${3:false}, ${4:''}, ${5:''})
+cot_selectbox_lang(${1:\$user['user_lang']}, '${2:fieldname}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_selectbox_lang</tabTrigger>

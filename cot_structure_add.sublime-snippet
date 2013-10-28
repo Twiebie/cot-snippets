@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_structure_add(${1:\$extension}, ${2:array('key' => 'value')}, ${3:true})
+cot_structure_add('${1:myextension}', ${2:\$structure}, ${3:true})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_structure_add</tabTrigger>

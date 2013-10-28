@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_selectbox_countries(${1:''}, ${2:'name'}, ${3:true}, ${4:''}, ${5:''})
+cot_selectbox_countries(${1:\$user['country']}, '${2:user_country}'),
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_selectbox_countries</tabTrigger>

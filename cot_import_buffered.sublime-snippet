@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_import_buffered(${1:\$name}, ${2:\$value}, ${3:''})
+cot_import_buffered(${1:\$name}, ${2:\$value})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_import_buffered</tabTrigger>

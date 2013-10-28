@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_shield_protect()
+cot_shield_protect(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_shield_protect</tabTrigger>

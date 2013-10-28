@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_structure_children(${1:\$area}, ${2:\$cat}, ${3:true},  ${4:true}, ${5:true}, ${6:true})
+cot_structure_children('${1:myplugin}', ${2:\$cat}, ${3:false},  ${4:false})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_structure_children</tabTrigger>

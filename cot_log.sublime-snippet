@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_log(${1:\$text}, ${2:'def'})
+cot_log('${1:Deleted page}', '${2:adm}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_log</tabTrigger>

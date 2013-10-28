@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_import_date(${1:\$name}, ${2:true}, ${3:false}, ${4:'P'})
+cot_import_date(${1:\$date}, ${2:true})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_import_date</tabTrigger>

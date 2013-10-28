@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_clear_messages()
+cot_clear_messages(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_clear_messages</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_inputbox(${1:'text', ${2:'name'}, ${3:''}, ${4:''}, ${5:''})
+cot_inputbox('${1:text}', '${2:fieldname}', '${3:fieldvalue}', array('${4:size}' => ${5:56}, '${6:maxlength}' => ${7:255}))
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_inputbox</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_display_messages()
+cot_display_messages(${1:\$t})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_display_messages</tabTrigger>

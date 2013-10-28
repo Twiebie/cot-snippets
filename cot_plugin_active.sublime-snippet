@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_plugin_active(${1:\$name})
+cot_plugin_active('${1:pluginname}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_plugin_active</tabTrigger>

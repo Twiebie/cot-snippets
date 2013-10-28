@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_message(${1:\$text}, ${2:'ok'}, ${3:'default'})
+cot_message('${1:mymessage}', '${2:ok}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_message</tabTrigger>

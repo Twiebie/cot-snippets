@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_structure_update(${1:\$extension}, ${2:\$id}, ${3:\$old_data}, ${4:\$new_data}, ${5:true})
+cot_structure_update('${1:myplugin}', ${2:\$id}, ${3:\$old_data}, ${4:\$new_data}, ${5:true})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_structure_update</tabTrigger>

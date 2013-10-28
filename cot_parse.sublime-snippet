@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_parse(${1:\$text}, ${2:true}, ${3:''})
+cot_parse(${1:\$page_data['text']}, ${2:\$cfg['page']['markup']}, ${3:\$page_data['page_parser']})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_parse</tabTrigger>

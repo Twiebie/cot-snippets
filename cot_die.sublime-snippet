@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_die()
+cot_die(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_die</tabTrigger>

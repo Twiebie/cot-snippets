@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_declension(${1:\$digit}, ${2:\$expr}, ${3:false}, ${4:false})
+cot_declension(${1:\$digit}, ${2:\$expr})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_declension</tabTrigger>

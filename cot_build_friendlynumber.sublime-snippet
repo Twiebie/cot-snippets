@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_build_friendlynumber(${1:\$number}, ${2:\$units}, ${3:1}, ${4:0}, ${5:null}, ${6:null})
+cot_build_friendlynumber(${1:\$number}, array('${2:3600}' => '${3:hours}', '${4:60}' => '${5:minutes}', '${6:1}' => '${7:seconds}'))
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_build_friendlynumber</tabTrigger>

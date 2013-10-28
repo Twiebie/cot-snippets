@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_selectbox(${1:''}, ${2:'name'}, ${3:array('', '')}, ${3:array('', '')}, ${4:true}, ${5:''}, ${6:''}, ${7:false})
+cot_selectbox('${1:}', '${2:fieldname}', array_keys(${3:\$values}), array_values(${4:\$values}), ${5:false})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_selectbox</tabTrigger>

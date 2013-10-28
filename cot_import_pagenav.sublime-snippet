@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_import_pagenav(${1:\$var_name}, ${2:0})
+cot_import_pagenav('${1:d}', ${2:\$cfg['myplug']['maxitems']})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_import_pagenav</tabTrigger>

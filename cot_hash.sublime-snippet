@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_hash(${1:\$data}, ${2:''}, ${3:'sha256'})
+cot_hash(${1:\$data}, ${2:\$salt}, '${3:sha256}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_hash</tabTrigger>

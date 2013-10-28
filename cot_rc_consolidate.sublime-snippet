@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_rc_consolidate()
+cot_rc_consolidate(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc_consolidate</tabTrigger>

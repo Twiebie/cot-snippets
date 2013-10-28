@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_radiobox(${1:''}, ${2:'name'}, ${3:array('', '')}, ${4:array('', '')}, ${5:''}, ${6:''}, ${7:''})
+cot_radiobox('${1:}', '${2:fieldname}', array(${3:1}, ${4:0}), array(${5:\$L['Yes']}, ${6:\$L['No'])})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_radiobox</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_setcookie(${1:\$name}, ${2:\$value}, ${3:''}, ${4:''}, ${5:''}, ${6:false}, ${7:true})
+cot_setcookie(${1:\$sys['site_id']}, '${2:}', ${3:time()-63072000}, ${4:\$cfg['cookiepath']}, ${5:\$cfg['cookiedomain']}, ${6:\$sys['secure']}, ${7:true})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_setcookie</tabTrigger>

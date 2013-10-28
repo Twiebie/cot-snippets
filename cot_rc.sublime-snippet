@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_rc(${1:\$name}, ${2:\$params})
+cot_rc('${1:myitem}', array('${2:id}' => ${3:\$id}))
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc</tabTrigger>

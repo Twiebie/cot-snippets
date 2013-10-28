@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_rmdir(${1:\$dir})
+cot_rmdir(${1:\$cfg['cache_dir'] . '/myplugin'})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rmdir</tabTrigger>

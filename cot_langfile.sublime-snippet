@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_langfile(${1:\$name}, ${2:'plug'}, ${3:'en'}, ${4:null})
+cot_langfile('${1:myplugin}', '${2:plug}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_langfile</tabTrigger>

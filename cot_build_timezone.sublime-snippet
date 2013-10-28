@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_build_timezone(${1:\$offset}, ${2:true}, ${3:false})
+cot_build_timezone(${1:\$usr['timezone']})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_build_timezone</tabTrigger>

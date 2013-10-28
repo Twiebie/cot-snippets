@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_randomstring(${1:8}, ${2:null})
+cot_randomstring(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_randomstring</tabTrigger>

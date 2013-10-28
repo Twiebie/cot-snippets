@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_selectbox_timezone(${1:''}, ${2:'name'}, ${3:true}, ${4:false}, ${5:''}, ${6:''})
+cot_selectbox_timezone(${1:\$usr['user_timezone']}, '${2:fieldname}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_selectbox_timezone</tabTrigger>

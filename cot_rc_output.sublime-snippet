@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_rc_output()
+cot_rc_output(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc_output</tabTrigger>

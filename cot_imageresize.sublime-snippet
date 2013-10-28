@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_imageresize(${1:\$source}, ${2:'return'}, ${3:99999}, ${4:99999}, ${5:''}, ${6:''}, ${7:90}, ${8:true})
+cot_imageresize(${1:\$filepath}, ${2:\$filepath}, ${3:\$settings['width']}, ${4:\$settings['height']}, ${5:\$settings['crop']}, '${6:}', ${7:100})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_imageresize</tabTrigger>

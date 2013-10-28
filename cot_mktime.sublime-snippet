@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_mktime()
+cot_mktime(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_mktime</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_date2strftime(${1:{''})
+cot_date2strftime('${1:%Y-%m-%d}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_date2strftime</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_mail(${1:\$fmail}, ${2:\$subject}, ${3:\$body}, ${4:''}, ${5:false}, ${6:null}, ${7:false})
+cot_mail(${1:\$fmail}, ${2:\$subject}, ${3:\$body}, '${4:}', ${5:false}, ${6:null}, ${7:false})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_mail</tabTrigger>

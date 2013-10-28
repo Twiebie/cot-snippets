@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_textarea(${1:'name'}, ${2:'value'}, ${3:20}, ${4:56}, ${5:''}, ${6:''})
+cot_textarea('${1:name}', '${2:value}', ${3:20}, ${4:56}, '${5:}', '${6:}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_textarea</tabTrigger>

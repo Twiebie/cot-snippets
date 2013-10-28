@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_rc_add_file(${1:\$path}, ${2:'global'}, ${3:50})
+cot_rc_add_file(${1:\$cfg['plugins_dir'] . '/myplugin/lib/somefile.css')})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc_add_file</tabTrigger>

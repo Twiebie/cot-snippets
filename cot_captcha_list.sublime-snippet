@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_captcha_list()
+cot_captcha_list(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_captcha_list</tabTrigger>

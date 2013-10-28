@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_rc_link_footer(${1:\$path})
+cot_rc_link_footer(${1:\$cfg['plugins_dir'] . '/myplugin/lib/somefile.js'})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_rc_link_footer</tabTrigger>

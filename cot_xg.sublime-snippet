@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_xg()
+cot_xg(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_xg</tabTrigger>

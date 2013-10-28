@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_build_user(${1:\$id}, ${2:\$user}, ${3:''})
+cot_build_user(${1:\$userid}, htmlspecialchars(${2:\$username}))
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_build_user</tabTrigger>

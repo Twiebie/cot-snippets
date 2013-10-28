@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_selectbox_structure(${1:\$extension}, ${2:\$selectedvalue}, ${3:'name'}, ${4:''}, ${5:true}, ${6:true})
+cot_selectbox_structure('${1:myplugin}', ${2:\$myplug['page_cat']}, '${3:fieldname}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_selectbox_structure</tabTrigger>

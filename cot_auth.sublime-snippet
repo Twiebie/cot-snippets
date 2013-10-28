@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_auth(${1:\$area}, ${2:\$option}, ${3:'RWA'})
+cot_auth(${1:\$area}, ${2:\$option}, '${3:RWA}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_auth</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_string_truncate(${1:\$text}, ${2:100}, ${3:true}, ${4:false}, ${5:''})
+cot_string_truncate(${1:\$text}, ${2:120})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_string_truncate</tabTrigger>

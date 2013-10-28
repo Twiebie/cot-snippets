@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_url(${1:\$name}, ${2:''}, ${3:''}, ${4:false}, ${5:false})
+cot_url('${1:myplugin}', '${2:m=somelocation}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_url</tabTrigger>

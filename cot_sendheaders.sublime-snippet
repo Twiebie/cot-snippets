@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_sendheaders(${1:'text/html'}, ${2:'200 OK'}, ${3:0})
+cot_sendheaders('${1:text/html}', '${2:200 OK}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_sendheaders</tabTrigger>

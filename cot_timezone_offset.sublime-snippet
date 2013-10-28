@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_timezone_offset(${1:\$tz}, ${2:false}, ${3:true})
+cot_timezone_offset(${1:\$cfg['defaulttimezone']}, ${2:true})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_timezone_offset</tabTrigger>

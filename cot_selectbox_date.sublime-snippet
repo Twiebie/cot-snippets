@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_selectbox_date(${1:\$utime}, ${2:'long'}, ${3:'name'}, ${4:2030}, ${5:2000}, ${6:true}, ${7:''})
+cot_selectbox_date(${1:\$sys['now']}, '${2:long}', '${3:fieldname}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_selectbox_date</tabTrigger>

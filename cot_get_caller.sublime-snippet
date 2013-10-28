@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_get_caller()
+cot_get_caller(${1:})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_get_caller</tabTrigger>

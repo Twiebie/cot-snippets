@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_title(${1:\$mask}, ${2:\$params}, ${3:true})
+cot_title(${1:\$cfg['myplugin']['mytitle']}, ${2:\$params})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_title</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_selectbox_theme(${1:\$selected_theme}, ${2:\$selected_scheme}, ${3:\$input_name})
+cot_selectbox_theme(${1:\$usr['user_theme']}, ${2:\$usr['user_scheme']}, '${3:fieldname}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_selectbox_theme</tabTrigger>

@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_checklistbox(${1:''}, ${2:'name'}, ${3:array('', '')}, ${4:array('', '')}, ${5:''}, ${6:''}, ${7:true}, ${8:''})
+cot_checklistbox('${1:}', '${2:name}', array('${3:key}' => '${4:value}'), array('${5:key}' => '${6:value}'), '${7:}', '${8:}', ${9:true}, '${10:}')
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_checklistbox</tabTrigger>

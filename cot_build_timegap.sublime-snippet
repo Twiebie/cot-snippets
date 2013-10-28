@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-cot_build_timegap(${1:\$t1}, ${2:null}, ${3:1}, ${4:0}, ${5:null}, ${6:null})
+cot_build_timegap(${1:\$t1}, ${2:\$sys['now']})
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>cot_build_timegap</tabTrigger>
